@@ -1,0 +1,176 @@
+{
+   "students": [
+  {
+    "studentID": "150121040",
+    "name": "Osman Acar",
+    "username": "Osman",
+    "password": "konyaspor",
+    "advisorID": "advisor01",
+    "enrolledCourses": []
+  },
+  {
+    "studentID": "150121001",
+    "name": "Damla Kundak",
+    "username": "Damla",
+    "password": "okaliptus",
+    "advisorID": "advisor02",
+    "enrolledCourses": []
+  },
+  {
+    "studentID": "150122022",
+    "name": "Şevval Sağır",
+    "username": "Şevval",
+    "password": "queen",
+    "advisorID": "advisor01",
+    "enrolledCourses": []
+  },
+  {
+    "studentID": "150121042",
+    "name": "Zeynep Kurt",
+    "username": "Zeynep",
+    "password": "zuzu",
+    "advisorID": "advisor02",
+    "enrolledCourses": []
+  },
+  {
+    "studentID": "150121040",
+    "name": "Nisa Şen",
+    "username": "Nisa",
+    "password": "fbıopenup",
+    "advisorID": "advisor01",
+    "enrolledCourses": []
+  },
+  {
+    "studentID": "150121067",
+    "name": "Ahmet Akay",
+    "username": "Ahmet",
+    "password": "kuponyattı",
+    "advisorID": "advisor02",
+    "enrolledCourses": []
+  },
+{
+    "studentID": "150121011",
+    "name": "Ali Veli",
+    "username": "Ali",
+    "password": "aveli123",
+    "advisorID": "advisor01",
+    "enrolledCourses": []
+},
+{
+    "studentID": "150121053",
+    "name": "Timür Tönge",
+    "username": "Timur",
+    "password": "ttönge123",
+    "advisorID": "advisor02",
+    "enrolledCourses": []
+},
+{
+    "studentID": "150121036",
+    "name": "Cemil Suat",
+    "username": "Cemil",
+    "password": "olabilirmi",
+    "advisorID": "advisor01",
+    "enrolledCourses": []
+},
+{
+    "studentID": "150121041",
+    "name": "Serdar Tezcan",
+    "username": "Serdar",
+    "password": "dolandirici",
+    "advisorID": "advisor02",
+    "enrolledCourses": []
+}
+],
+
+ "advisors": [
+  {
+    "advisorID": "advisor01",
+    "name": "Serap Korkmaz",
+    "students": ["150121040", "150122022", "150121040", "150121011", "150121036"]
+  },
+  {
+    "advisorID": "advisor02",
+    "name": "Mehmet Kaya",
+    "students": ["150121001", "150121042", "150121067", "150121053", "150121041"]
+  }
+],
+"courses": [
+  {
+    "courseID": "CS101",
+    "name": "Introduction to Computer Science",
+    "capacity": 30,
+    "prerequisites": [],
+    "enrolledStudents": []
+  },
+  {
+    "courseID": "CS102",
+    "name": "Data Structures",
+    "capacity": 25,
+    "prerequisites": ["CS101"],
+    "enrolledStudents": []
+  },
+  {
+    "courseID": "CS103",
+    "name": "Algorithms",
+    "capacity": 25,
+    "prerequisites": ["CS102"],
+    "enrolledStudents": []
+  },
+  {
+    "courseID": "MATH101",
+    "name": "Calculus I",
+    "capacity": 30,
+    "prerequisites": [],
+    "enrolledStudents": []
+  },
+  {
+    "courseID": "MATH102",
+    "name": "Calculus II",
+    "capacity": 30,
+    "prerequisites": ["MATH101"],
+    "enrolledStudents": []
+  },
+{
+    "courseID": "MATH103",
+    "name": "Linear Algebra",
+    "capacity": 30,
+    "prerequisites": ["MATH102"],
+    "enrolledStudents": []
+},
+{
+    "courseID": "CS104",
+    "name": "Software Engineering",
+    "capacity": 30,
+    "prerequisites": ["CS103"],
+    "enrolledStudents": []
+},
+{
+    "courseID": "CS105",
+    "name": "Computer Networks",
+    "capacity": 30,
+    "prerequisites": ["CS104"],
+    "enrolledStudents": []
+},
+{
+    "courseID": "CS106",
+    "name": "Operating Systems",
+    "capacity": 30,
+    "prerequisites": ["CS105"],
+    "enrolledStudents": []
+},
+{
+    "courseID": "CS107",
+    "name": "Database Management Systems",
+    "capacity": 30,
+    "prerequisites": ["CS106"],
+    "enrolledStudents": []
+}
+],
+
+"parameters": {
+  "maxCoursesPerStudent": 5,
+  "waitlistEnabled": false,
+  "databaseType": "JSON",
+  "version": "1.0"
+}
+  }
