@@ -1,0 +1,14 @@
+{
+  "advisors": [
+   {
+     "advisorID": "advisor01",
+     "name": "Serap Korkmaz",
+     "students": ["150121040", "150122022", "150121040", "150121011", "150121036"]
+   },
+   {
+     "advisorID": "advisor02",
+     "name": "Mehmet Kaya",
+     "students": ["150121001", "150121042", "150121067", "150121053", "150121041"]
+   }
+ ]
+}

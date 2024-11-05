@@ -1,0 +1,15 @@
+{
+    "classrooms": [
+      {
+        "room_id": "R101",
+        "capacity": 40,
+        "schedule": [
+          {
+            "course_id": "CSE101",
+            "day": "Monday",
+            "time": "10:00-12:00"
+          }
+        ]
+      }
+    ]
+  }
