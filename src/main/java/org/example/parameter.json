@@ -1,8 +1,0 @@
-{
-    "parameters": {
-  "maxCoursesPerStudent": 5,
-  "waitlistEnabled": false,
-  "databaseType": "JSON",
-  "version": "1.0"
-}
-}
