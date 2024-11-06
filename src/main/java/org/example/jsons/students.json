@@ -1,0 +1,82 @@
+ [
+    {
+      "studentID": "150121040",
+      "name": "Osman Acar",
+      "username": "Osman",
+      "password": "konyaspor",
+      "advisorID": "advisor01",
+      "enrolledCourses": []
+    },
+    {
+      "studentID": "150121001",
+      "name": "Damla Kundak",
+      "username": "Damla",
+      "password": "okaliptus",
+      "advisorID": "advisor02",
+      "enrolledCourses": []
+    },
+    {
+      "studentID": "150122022",
+      "name": "Şevval Sağır",
+      "username": "Şevval",
+      "password": "queen",
+      "advisorID": "advisor01",
+      "enrolledCourses": []
+    },
+    {
+      "studentID": "150121042",
+      "name": "Zeynep Kurt",
+      "username": "Zeynep",
+      "password": "zuzu",
+      "advisorID": "advisor02",
+      "enrolledCourses": []
+    },
+    {
+      "studentID": "150121040",
+      "name": "Nisa Şen",
+      "username": "Nisa",
+      "password": "fbıopenup",
+      "advisorID": "advisor01",
+      "enrolledCourses": []
+    },
+    {
+      "studentID": "150121067",
+      "name": "Ahmet Akay",
+      "username": "Ahmet",
+      "password": "kuponyattı",
+      "advisorID": "advisor02",
+      "enrolledCourses": []
+    },
+  {
+      "studentID": "150121011",
+      "name": "Ali Veli",
+      "username": "Ali",
+      "password": "aveli123",
+      "advisorID": "advisor01",
+      "enrolledCourses": []
+  },
+  {
+      "studentID": "150121053",
+      "name": "Timür Tönge",
+      "username": "Timur",
+      "password": "ttönge123",
+      "advisorID": "advisor02",
+      "enrolledCourses": []
+  },
+  {
+      "studentID": "150121036",
+      "name": "Cemil Suat",
+      "username": "Cemil",
+      "password": "olabilirmi",
+      "advisorID": "advisor01",
+      "enrolledCourses": []
+  },
+  {
+      "studentID": "150121041",
+      "name": "Serdar Tezcan",
+      "username": "Serdar",
+      "password": "dolandirici",
+      "advisorID": "advisor02",
+      "enrolledCourses": []
+  }
+  ]
