@@ -37,4 +37,8 @@ public class StudentManager implements StudentService{
     public void delete(Student student) {
         _studentDao.delete(student);
     }
+    @Override
+    public void enrollCourse(Student student,Course course){
+        _studentDao.enrollCourse(student, course);
+    }
 }
