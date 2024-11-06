@@ -5,16 +5,17 @@ import org.example.entities.Advisor;
 
 import java.util.List;
 
-public class AdvisorManager implements AdvisorService{
+public class AdvisorManager implements AdvisorService {
 
     AdvisorDao _advisorDao;
 
-    public AdvisorManager(AdvisorDao advisorDao){
+    public AdvisorManager(AdvisorDao advisorDao) {
         _advisorDao = advisorDao;
     }
 
     @Override
     public List<Advisor> getAll() {
+
         return _advisorDao.getAll();
     }
 
