@@ -1,4 +1,5 @@
 package org.example.entities;
 
-public class Advisor extends Entity{
+public class Advisor extends Instructor {
+
 }
