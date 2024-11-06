@@ -1,4 +1,4 @@
 package org.example.entities;
 
-public class Course extends Entity{
+public class Course extends BaseEntity {
 }
