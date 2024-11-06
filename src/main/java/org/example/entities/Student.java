@@ -1,5 +1,5 @@
 package org.example.entities;
 
-public class Student extends Entity{
+public class Student extends User {
 
 }
