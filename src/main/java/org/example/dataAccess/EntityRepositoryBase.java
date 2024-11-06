@@ -4,7 +4,7 @@ import org.example.entities.Entity;
 
 import java.util.List;
 
-public class EntityRepositoryBase<TEntity extends Entity> implements EntityRepository<TEntity> {
+public class EntityRepositoryBase<TEntity extends BaseEntity> implements EntityRepository<TEntity> {
 
     @Override
     public void insert(TEntity entity) {
